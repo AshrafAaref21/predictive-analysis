@@ -20,7 +20,8 @@ matplotlib.use('Agg')
 st.set_page_config(
     page_title='Auto Data',
     page_icon="🧊",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state='expanded'
 )
 _, cl, _ = st.columns([1, 3, 1])
 with cl:

@@ -57,11 +57,15 @@ def main(df=''):
     else:
         with cl2:
             url = st.text_input('Input URL')
-            df = pd.read_csv(
-                url)
-
-        st.success('Your Data Successfully Uploaded')
-        st.dataframe(df.head(30), use_container_width=True)
+            try:
+                df = pd.read_csv(
+                    url)
+                count_of_null = df.copy().isnull().sum().sum()
+            except:
+                st.error('It\'s not a valid URL')
+        if type(df) != str:
+            st.success('Your Data Successfully Uploaded')
+            st.dataframe(df.head(30), use_container_width=True)
 
     st.divider()
 

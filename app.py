@@ -236,7 +236,9 @@ def main(df=''):
     
                 Hello, It's a Product to help you discover your data and get advanced insights of it. 
                 \n
-                You can download your csv, xlsx data or provide us with a url of it and we will display your data and help you with analysis reports, visualizations, and predictive classification model
+                You can download your csv, xlsx data or provide us with a url of it and we will display your data and help you with analysis reports, visualizations, and predictive classification model.
+                \n
+                Just Follow the Sequence from the sidebar and download the excited reports for you 😊
 
                 """)
 

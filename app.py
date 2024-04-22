@@ -34,7 +34,7 @@ st.image(image, use_column_width=True)
 
 def main(df=''):
 
-    activities = ['EDA', 'Visualization', 'Classifier Model', 'About Me']
+    activities = ['EDA', 'Visualization', 'Classifier Model', 'Help']
 
     option = st.sidebar.selectbox('Select The Activity Option', activities)
 
@@ -230,6 +230,14 @@ def main(df=''):
             else:
                 st.write('\n')
                 st.warning('Kindly, Select The Target and Feature Columns')
+        else:
+            st.info("""
+        
+                    Hello, It's a Product to help you discover your data and get advanced insights of it. 
+                    \n
+                    You can download your csv, xlsx data or provide us with a url of it and we will display your data and help you with analysis reports, visualizations, and predictive classification model
+
+                    """)
 
 
 if __name__ == '__main__':

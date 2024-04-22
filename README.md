@@ -1,21 +1,19 @@
 
-# **Building And Deploying Machine Learnning Model**
+# **Building And Deploying Predictive Analysis**
 
-Creating Software to manage an Company Orders using Machine learning model that predicts Company Carriers Delivery Duration and Carriers Constraints (Starting from Data minning and feature engineering to model selection and final making a dashboard to interact with employees).
-
+Creating Software to analyize, visualize, develop predictive model for the users data.
 
 ---------------------------
 
 ## Steps
 
-        1. Data Minning.
-        2. Data Preprocessing & Analysis.
-        3. Upsampling.
-        4. Create Classifier Model.
-        5. Create Regressor Model.
-        6. Fine Tunning.
-        7. Create Dashboard and User Interface To interact with real world.
-        8. Deploy The App.
+        1. Upload Data Or Input URL.
+        2. Display Data.
+        3. Generate Different Reports.
+        4. Visualize The Data.
+        5. Create Classifier Model.
+        6. Download The Trainned Model.
+        7. Deploy The App.
 
 
 -------------------------------------------------------
@@ -27,18 +25,15 @@ Creating Software to manage an Company Orders using Machine learning model that 
 
         1. Python.
         2. Scikit-Learn & Pandas & Numpy.
-        3. CatBoost.
-        4. XGBoost.
-        5. Optuna
-        6. Streamlit.
-        7. CSS.
+        3. Streamlit.
+        4. CSS.
 
 
 -------------------------------------------------------
 
 ## Model Deployment
 
-You can find the dashboard from this [link](https://order-carrier-assignment.streamlit.app/)
+You can find the dashboard from this [link](https://john-predictive-analysis.streamlit.app/)
 
 -----------------------------------------------------------------
 
@@ -51,7 +46,31 @@ You can find the dashboard from this [link](https://order-carrier-assignment.str
 
 
 ## Model Flowchart
-![Flowchart](https://github.com/AshrafAaref21/Transportation-Optimization/assets/82468597/72b580ee-5107-4deb-b959-3a9bb71b8a50)
+
+![Full-Auto-Data](https://github.com/AshrafAaref21/predictive-analysis/assets/82468597/e8ccb497-0f3a-4988-b159-d5c6bb88f205)
+
+------------------------------------------------------------------------
+
+## EDA Flowchart
+
+![EDA](https://github.com/AshrafAaref21/predictive-analysis/assets/82468597/e836a6e8-e480-44f7-96d4-a5f3624201c7)
+
+------------------------------------------------------------------------
+
+## Visualization Flowchart
+
+![Visualization](https://github.com/AshrafAaref21/predictive-analysis/assets/82468597/249cf213-637e-431e-8d8d-e99e4eff4c5d)
+
+
+------------------------------------------------------------------------
+
+## Classifier Model Flowchart
+
+
+![Model](https://github.com/AshrafAaref21/predictive-analysis/assets/82468597/7999abc5-4ac3-4a0c-b258-0462ab906563)
+
+
+------------------------------------------------------------------------
 
 
 

@@ -230,14 +230,15 @@ def main(df=''):
             else:
                 st.write('\n')
                 st.warning('Kindly, Select The Target and Feature Columns')
-        else:
-            st.info("""
-        
-                    Hello, It's a Product to help you discover your data and get advanced insights of it. 
-                    \n
-                    You can download your csv, xlsx data or provide us with a url of it and we will display your data and help you with analysis reports, visualizations, and predictive classification model
 
-                    """)
+    if option == 'Help':
+        st.info("""
+    
+                Hello, It's a Product to help you discover your data and get advanced insights of it. 
+                \n
+                You can download your csv, xlsx data or provide us with a url of it and we will display your data and help you with analysis reports, visualizations, and predictive classification model
+
+                """)
 
 
 if __name__ == '__main__':

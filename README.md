@@ -93,3 +93,11 @@ Streamlit Community Cloud inherits the permissions you have assigned in GitHub. 
 
 
 
+
+------------------------------------------------------------------------
+
+
+# Product Integration
+
+1. Flask: To make User Authentication and save user Data and its Reports.
+2. MySQL or MongoDB: For scale the Product Database.

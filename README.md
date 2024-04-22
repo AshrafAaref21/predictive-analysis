@@ -74,3 +74,22 @@ You can find the dashboard from this [link](https://john-predictive-analysis.str
 
 
 
+## Product security
+
+
+### Authentication
+
+You must authenticate through GitHub to deploy or administer an app. Authentication through Google or single-use emailed links are required to view a private app when you don't have push or admin permissions on the associated GitHub repository. The single-use emailed links are valid for 15 minutes once requested.
+
+
+
+### Permissions
+
+Streamlit Community Cloud inherits the permissions you have assigned in GitHub. Users with write access to a GitHub repository for a given app will be able to make changes in the Streamlit administrative console. However, only users with admin access to a repository are able to deploy and delete apps.
+
+
+
+[Network and application security](https://docs.streamlit.io/deploy/streamlit-community-cloud/get-started/trust-and-security)
+
+
+

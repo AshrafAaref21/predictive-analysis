@@ -63,9 +63,11 @@ def to_excel(df):
     return processed_data
 
 
-def fill_null(df):
+def fill_null(df, unittest=False, filler=10):
 
     df_null = df.isnull().sum()
+    if unittest:
+        return df.fillna(filler)
 
     if df_null.sum() > 0:
 

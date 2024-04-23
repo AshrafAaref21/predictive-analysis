@@ -31,7 +31,7 @@ Creating Software to analyize, visualize, develop predictive model for the users
 
 -------------------------------------------------------
 
-## Model Deployment
+## Product Deployment
 
 [The Full Deployment Process](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app)
 
@@ -47,7 +47,7 @@ You can find the dashboard from this [link](https://john-predictive-analysis.str
 -----------------------------------------------------------------
 
 
-## Model Flowchart
+## Product Flowchart
 
 ![Full-Auto-Data](https://github.com/AshrafAaref21/predictive-analysis/assets/82468597/e8ccb497-0f3a-4988-b159-d5c6bb88f205)
 
@@ -103,3 +103,25 @@ Streamlit Community Cloud inherits the permissions you have assigned in GitHub. 
 
 1. Flask: To make User Authentication and save user Data and its Reports.
 2. MySQL or MongoDB: For scale the Product Database.
+
+
+------------------------------------------------------------------
+-----
+
+## Download Reports And Trainned Model
+
+        1. You can download each report as a csv file.
+        2. you can download the treated data as csv
+        3. you can download the trainned model as pickle file.
+
+
+---------------------------------------------------------------------
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  nose2 -v
+```
+
